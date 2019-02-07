@@ -1,2 +1,2 @@
 # coming-soon-centroeste
-Coming soon page in portuguese.
+Simple responsive coming soon page in portuguese. You can find the page online here: http://www.centroeste-ericeira.pt. All suggestions are welcome. Thank you!
