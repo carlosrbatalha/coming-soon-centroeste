@@ -1,0 +1,424 @@
+
+/* Clear browser margins and padding */
+
+* { 
+
+ margin:0; padding:0;
+
+}
+
+
+
+body {
+
+ /*font-family: 'Helvetica', 'Arial', sans-serif;*/
+ 
+ font-family: 'Varela Round', sans-serif;
+ background-image: url(/img/centroeste-web.jpg);
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; 
+  
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+ 
+ font-size: calc(12px + (26 - 12) * ((100vw - 300px) / (1600 - 300)));
+ line-height: calc(1.8em + (2.5 - 1.8) * ((100vw - 300px)/(1600 - 300)));
+
+ /* width:100%;*/ 
+}
+
+#container{
+  margin:50px;
+
+   
+  
+}
+
+
+h1 {
+	font-family: 'Playfair Display', serif;
+
+	display: -webkit-box;
+
+	display: -ms-flexbox;
+
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack:center;
+	    -ms-flex-pack:center;
+	        justify-content:center;
+	
+	height: 100px;
+	width: 100%;
+	position: relative;
+	font-size: calc(80px + (100 - 80) * ((100vw - 300px) / (1600 - 300)));
+	
+	color: #7d9473;
+
+
+
+
+}
+
+h2 {
+font-family: 'Varela Round', sans-serif;
+font-size: calc(18.5px + (20 - 18.5) * ((100vw - 300px) / (1600 - 300)));
+
+color: #7f7366;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+    -ms-flex-direction: row;
+        flex-direction: row;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack:center;
+    -ms-flex-pack:center;
+        justify-content:center;
+text-align: center;
+
+
+height: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
+width: 100%;
+
+
+
+
+
+
+}
+
+
+.contact {
+color: #7d9473;
+font-family: 'Playfair Display', serif;
+font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
+text-align: center;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+padding: 10px;
+margin:auto;
+
+
+}
+
+
+
+
+
+
+.text-overlay {
+   
+    display: -webkit-box;
+   
+    display: -ms-flexbox;
+   
+    display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+    color: #7f7366;
+    height: auto;
+    width:70%;
+    bottom: 0;
+    background-color: rgba(255,255,255, 0.8);
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom:20px;
+
+
+
+  
+}
+
+.text-overlay p {
+font-family: 'Playfair Display', serif;
+font-size: calc(20px + (24 - 20) * ((100vw - 300px) / (1600 - 300)));
+padding: 20px;
+
+}
+
+.text-overlay h3 {
+font-family: 'Varela Round', sans-serif;
+
+font-size: calc(20px + (26 - 20) * ((100vw - 300px) / (1600 - 300)));
+
+padding: 10px;
+
+}
+
+
+
+
+.icones {
+ 
+  display: -webkit-box;
+ 
+  display: -ms-flexbox;
+ 
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  
+  padding: 20px 0px 10px 0px;
+
+
+}
+
+.ico {
+fill: #7f7366;
+
+width: calc(26px + (36 - 26) * ((100vw - 300px) / (1600 - 300))); 
+height: calc(26px + (36 - 26) * ((100vw - 300px) / (1600 - 300))); 
+
+padding:5px;
+cursor:pointer;
+
+}
+
+.ico:hover {
+
+fill: #5a4761;
+
+}
+
+
+
+
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+	#container{
+  margin:30px;
+
+   
+  
+}
+
+
+h1 {
+	
+
+font-size: calc(55px + (75 - 55) * ((100vw - 320px) / (480 - 320))); 
+
+	
+	
+height: 80px;
+
+
+
+}
+
+h2 {
+
+font-size: calc(10.2px + (16 - 10.2) * ((100vw - 320px) / (480 - 320))); 
+height: calc(0px + (20 - 0) * ((100vw - 320px) / (480 - 320))); 
+
+
+
+
+
+
+}
+
+
+.contact {
+
+font-size: calc(12px + (16 - 12) * ((100vw - 320px) / (480 - 320)));
+margin-top: 0px;
+
+
+}
+
+
+.icones {
+ 
+  display: none;
+  
+
+
+}
+
+
+
+.text-overlay {
+   
+    display: -webkit-box;
+   
+    display: -ms-flexbox;
+   
+    display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+    color: #7f7366;
+    height: auto;
+    width:100%;
+    bottom: 0;
+    background-color: rgba(255,255,255, 0.8);
+    padding: 0px;
+    text-align: center;
+    margin-top: 100px;
+
+  
+}
+
+.text-overlay p {
+font-family: 'Playfair Display', serif;
+font-size: calc(12px + (16 - 12) * ((100vw - 320px) / (480 - 320)));
+padding: 5px;
+margin: 0px;
+
+}
+
+#phones {
+
+padding:0px;
+padding-bottom: 20px;
+margin: 0px;
+
+}
+
+.text-overlay h3 {
+font-family: 'Varela Round', sans-serif;
+font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (480 - 320)));
+
+padding: 0px;
+
+}
+
+.first-h3 {
+
+	margin-top: 20px;
+}
+
+.second-h3 {
+margin-top: 10px;
+margin-bottom: 5px;
+
+}
+
+#icones2 {
+
+	display: -webkit-box;
+
+	display: -ms-flexbox;
+
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  padding:0px;
+ padding-top: 5px;
+ 
+  
+
+}
+
+
+.ico {
+fill: #7f7366;
+
+width: calc(26px + (36 - 26) * ((100vw - 300px) / (1600 - 300))); 
+
+
+padding:5px;
+cursor:pointer;
+
+}
+
+
+
+
+
+}
+
+
+
+
+/*iPhone 6+ landscape*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (orientation : landscape) { 
+
+#container{
+  margin-top:0px;
+
+   
+  
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* The End */
+
+
+  
+
+
+      
+
+
+
+
+
+
+      
